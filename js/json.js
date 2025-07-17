@@ -39,7 +39,8 @@ function populateHeader(jsonBody) {
 
 
     //add a paragraph tag such that it can be used to display the head office and established year
-
+   let p = document.createElement('p');
+    p.textContent = `Head Office: ${jsonBody.headOffice}, Established: ${jsonBody.established}`;
 
     // Inject the complete H1 element into the DOM, inside the HEADER
 

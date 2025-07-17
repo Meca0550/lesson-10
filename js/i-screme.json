@@ -17,7 +17,29 @@
             "type": "Ice Cream",
             "ingredients": ["Peach syrup", "Sugar", "Vanilla Extract"],
             "image": "https://meca0550.github.io/lesson-10/images/peach-mango.svg"
+        },
+        {
+            "name": "Strawberry Delight",
+            "calories": 250,
+            "type": "Ice Cream",
+            "ingredients": ["Strawberry syrup", "Sugar", "Vanilla Extract"],
+            "image": "https://meca0550.github.io/lesson-10/images/strawberry-sprinkle.svg"
+        },
+        {
+            "name": "Vanilla Dream",
+            "calories": 250,
+            "type": "Ice Cream",
+            "ingredients": ["Vanilla syrup", "Sugar", "Vanilla Extract"],
+            "image": "https://meca0550.github.io/lesson-10/images/ice-cream-xtra2.svg"
+        },
+        {
+            "name": "Chocolate Chip Cookie Dough",
+            "calories": 250,
+            "type": "Ice Cream",
+            "ingredients": ["Chocolate chips", "Sugar", "Vanilla Extract"],
+            "image": "https://meca0550.github.io/lesson-10/images/ice-cream-xtra1.svg"
         }
+
     ]
 
 }
