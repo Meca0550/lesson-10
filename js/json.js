@@ -45,6 +45,7 @@ function populateHeader(jsonBody) {
     // Inject the complete H1 element into the DOM, inside the HEADER
 
     header.appendChild(h1);
+    header.appendChild(p); 
 }
 /* STEP 10b: Assemble the showTopFlavors() function */
 function showTopFlavors(jsonBody) {
@@ -82,6 +83,7 @@ function showTopFlavors(jsonBody) {
         article.appendChild(p1);
         article.appendChild(p2);
         article.appendChild(image);
+        article.appendChild(list);
         
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
         section.appendChild(article);
