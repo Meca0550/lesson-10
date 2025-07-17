@@ -8,7 +8,7 @@ async function populate() {
 // Introducing JavaScript Object Notation (JSON): https://json.org/
 // STEP 4a: Create i-scream.json file with companyName, headOffice, established, active, topFlavors(name, calories, type, ingredients, image) */
 // STEP 4b: Store the URL of a JSON file in a variable */
-let url = 'https://meca0550.github.io/LESSON-10/js/i-screme.json';
+let url = 'https://meca0550.github.io/lesson-10/js/i-screme.json';
 // STEP 5: Use the new URL to create a new request object
 let request = new Request(url);
 console.log(request);
@@ -72,6 +72,8 @@ function showTopFlavors(jsonBody) {
         for (let j = 0; j < ingredients.length; j++) {
             let listItem = document.createElement('li');
             listItem.textContent = ingredients[j];
+            
+            list.appendChild(listItem);
         }
         // add the ingredient to the UL
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
