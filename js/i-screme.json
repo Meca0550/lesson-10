@@ -1,0 +1,23 @@
+{
+    "companyName": "I-Screme Company Inc.",
+    "headOffice": "123 Ice Cream Lane, Sweet City, SC 12345",
+    "established": 2025,
+    "active": true,
+    "topFlavors": [
+        {
+            "name": "Chocolate Mint",
+            "calories": 250,
+            "type": "Ice Cream",
+            "ingredients": ["Chocolate syrup", "Sugar", "Vanilla Extract"],
+            "image": "https://meca0550.github.io/lesson-10/images/chocolate-mint.svg"
+        },
+        {
+            "name": "Peach Mango",
+            "calories": 250,
+            "type": "Ice Cream",
+            "ingredients": ["Peach syrup", "Sugar", "Vanilla Extract"],
+            "image": "https://meca0550.github.io/lesson-10/images/peach-mango.svg"
+        }
+    ]
+
+}
